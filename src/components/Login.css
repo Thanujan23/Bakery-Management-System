@@ -1,0 +1,122 @@
+/* General Container Styling */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .login-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  .login-card h2 {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .login-card p {
+    font-size: 0.9rem;
+    color: #777777;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Group Styling */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    color: #555555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .input-group input:focus {
+    border-color: #6c757d; /* Slightly darker focus border */
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 117, 125, 0.5);
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: #e74c3c; /* Red for error messages */
+    font-size: 0.85rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styling */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6c63ff; /* Modern purple color */
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #5a54d2;
+  }
+  
+  /* Footer Link Styling */
+  .login-footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555555;
+  }
+  
+  .login-footer a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .login-card {
+      padding: 20px;
+    }
+  
+    .login-card h2 {
+      font-size: 1.5rem;
+    }
+  
+    .submit-btn {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  

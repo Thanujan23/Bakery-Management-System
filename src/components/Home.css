@@ -1,0 +1,121 @@
+/* General Styles */
+.home {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* First Section - Background Image */
+  .first-section {
+    background-image: url('/public/616673f9686b9b82b0b5f83229b05875.jpg'); /* Replace with your bakery image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .first-section .intro-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a slight overlay to improve text visibility */
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .first-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .first-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Second Section */
+  .second-section {
+    background-color: #e9c46a;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .second-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .product-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 1.2rem;
+    color: #f4a261;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    background-color: #f4a261;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e76f51;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .footer-info {
+    margin-bottom: 15px;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

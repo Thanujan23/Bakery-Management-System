@@ -1,0 +1,71 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8c291; /* Light bakery-themed color */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Space between logo and shop name */
+  }
+  
+  .navbar-logo .shop-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3436; /* Dark color for shop name */
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  .navbar-links button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-links button:hover {
+    background-color: #2d3436; /* Darker color on hover */
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-buttons button {
+    background-color: #fff;
+    border: 2px solid #f8c291;
+    font-size: 16px;
+    padding: 8px 15px;
+    color: #f8c291;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-buttons button:hover {
+    background-color: #f8c291;
+    color: #fff;
+  }
+  
