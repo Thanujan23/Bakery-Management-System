@@ -17,9 +17,15 @@ const Navbar = () => {
 
       {/* Center Section: Navigation Links */}
       <div className="navbar-links">
+        <Link to={"/Home"}>
         <button>Home</button>
+        </Link>
+        <Link to={"/about-us"}>
         <button>About Us</button>
+        </Link>
+        <Link to={"/services"}>
         <button>Services</button>
+        </Link>
         <button>Products</button>
         <button>Contact Us</button>
         <button>FAQ</button>
