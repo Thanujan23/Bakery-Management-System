@@ -26,8 +26,12 @@ const Navbar = () => {
         <Link to={"/services"}>
         <button>Services</button>
         </Link>
+        <Link to={"/products"}>
         <button>Products</button>
+        </Link>
+        <Link to={"/ContactUs"}>
         <button>Contact Us</button>
+        </Link>
         <button>FAQ</button>
       </div>
 

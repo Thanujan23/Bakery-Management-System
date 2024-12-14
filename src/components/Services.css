@@ -1,64 +1,186 @@
 .services-page {
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .services-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .service-card {
-    flex: 1 1 calc(33.333% - 20px);
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .service-card h2 {
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .service-card p {
-    margin-bottom: 15px;
-    color: #666;
-  }
-  
-  .book-service {
-    padding: 10px 20px;
-    background-color: #ff7f50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  .book-service:hover {
-    background-color: #ff4500;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #fef7f0;
+  color: #333;
+}
+
+.services-header {
+  font-size: 36px;
+  text-align: center;
+  color: #d2691e;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  font-size: 16px;
+  border: 2px solid #d2691e;
+  border-radius: 5px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-link {
+  text-decoration: none;
+  color: #d2691e;
+}
+
+.service-link h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.book-now {
+  margin-top: 10px;
+}
+
+.book-now-button {
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #b35716;
+}
+
+.testimonials-link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.navigate-button {
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigate-button:hover {
+  background-color: #b35716;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+.booking-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.booking-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="date"],
+.booking-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.booking-form input[type="text"]:focus,
+.booking-form input[type="date"]:focus,
+.booking-form textarea:focus {
+  outline: none;
+  border-color: #d2691e;
+  box-shadow: 0px 0px 5px rgba(210, 105, 30, 0.5);
+}
+
+.booking-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.booking-form .submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form .submit-button:hover {
+  background-color: #b35716;
+}
+
+@media (max-width: 600px) {
+  .booking-form {
+    padding: 15px;
   }
 
-  .services-page {
-    padding: 20px;
-    text-align: center;
+  .booking-form h2 {
+    font-size: 20px;
   }
-  
-  .service-card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px;
-    cursor: pointer;
+
+  .booking-form label {
+    font-size: 14px;
   }
-  
-  .search-bar {
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 80%;
+
+  .booking-form input[type="text"],
+  .booking-form input[type="date"],
+  .booking-form textarea {
+    font-size: 13px;
   }
-  
-  
+
+  .booking-form .submit-button {
+    font-size: 14px;
+  }
+}

@@ -1,42 +1,40 @@
 /* bookingForm.css */
-
 .booking-form {
-    width: 100%;
-    max-width: 400px;
-    margin: 20px auto;
+    background-color: #f4f7fb;
+    border-radius: 8px;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
   }
   
   .booking-form input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s;
   }
   
   .booking-form input:focus {
+    border-color: #0056b3;
     outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
   
   .booking-form button {
     width: 100%;
-    padding: 10px;
+    padding: 14px;
     background-color: #007bff;
-    color: #fff;
-    font-size: 16px;
+    color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
   }
   
   .booking-form button:hover {
@@ -45,9 +43,17 @@
   
   .booking-form p {
     margin-top: 15px;
-    color: green;
-    font-size: 14px;
+    color: #28a745;
+    font-size: 16px;
     text-align: center;
-    font-weight: bold;
+  }
+  
+  .booking-form input::placeholder {
+    color: #888;
+  }
+  
+  .booking-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
   }
   
